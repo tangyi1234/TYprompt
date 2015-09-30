@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A213D7B61BBA76C9001A6665 /* promptView+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = A213D7B51BBA76C9001A6665 /* promptView+TY.m */; settings = {ASSET_TAGS = (); }; };
 		A296B2541BBA30E500082A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B2531BBA30E500082A0E /* main.m */; };
 		A296B2571BBA30E500082A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B2561BBA30E500082A0E /* AppDelegate.m */; };
 		A296B25A1BBA30E500082A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B2591BBA30E500082A0E /* ViewController.m */; };
-		A296B25D1BBA30E500082A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A296B25B1BBA30E500082A0E /* Main.storyboard */; };
 		A296B25F1BBA30E500082A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A296B25E1BBA30E500082A0E /* Assets.xcassets */; };
 		A296B2621BBA30E500082A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A296B2601BBA30E500082A0E /* LaunchScreen.storyboard */; };
 		A296B26D1BBA30E500082A0E /* promptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B26C1BBA30E500082A0E /* promptTests.m */; };
 		A296B2781BBA30E500082A0E /* promptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B2771BBA30E500082A0E /* promptUITests.m */; };
+		A296B2871BBA330000082A0E /* promptView.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B2861BBA330000082A0E /* promptView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A213D7B41BBA76C9001A6665 /* promptView+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "promptView+TY.h"; sourceTree = "<group>"; };
+		A213D7B51BBA76C9001A6665 /* promptView+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "promptView+TY.m"; sourceTree = "<group>"; };
 		A296B24F1BBA30E500082A0E /* prompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A296B2531BBA30E500082A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A296B2551BBA30E500082A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A296B2561BBA30E500082A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A296B2581BBA30E500082A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A296B2591BBA30E500082A0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A296B25C1BBA30E500082A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A296B25E1BBA30E500082A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A296B2611BBA30E500082A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A296B2631BBA30E500082A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		A296B2731BBA30E500082A0E /* promptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = promptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A296B2771BBA30E500082A0E /* promptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = promptUITests.m; sourceTree = "<group>"; };
 		A296B2791BBA30E500082A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A296B2851BBA330000082A0E /* promptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = promptView.h; sourceTree = "<group>"; };
+		A296B2861BBA330000082A0E /* promptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = promptView.m; sourceTree = "<group>"; };
+		A2D3B7EB1BBB8A660098401A /* TYDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +110,11 @@
 				A296B2561BBA30E500082A0E /* AppDelegate.m */,
 				A296B2581BBA30E500082A0E /* ViewController.h */,
 				A296B2591BBA30E500082A0E /* ViewController.m */,
-				A296B25B1BBA30E500082A0E /* Main.storyboard */,
+				A213D7B41BBA76C9001A6665 /* promptView+TY.h */,
+				A213D7B51BBA76C9001A6665 /* promptView+TY.m */,
+				A296B2851BBA330000082A0E /* promptView.h */,
+				A296B2861BBA330000082A0E /* promptView.m */,
+				A2D3B7EB1BBB8A660098401A /* TYDefine.h */,
 				A296B25E1BBA30E500082A0E /* Assets.xcassets */,
 				A296B2601BBA30E500082A0E /* LaunchScreen.storyboard */,
 				A296B2631BBA30E500082A0E /* Info.plist */,
@@ -245,7 +254,6 @@
 			files = (
 				A296B2621BBA30E500082A0E /* LaunchScreen.storyboard in Resources */,
 				A296B25F1BBA30E500082A0E /* Assets.xcassets in Resources */,
-				A296B25D1BBA30E500082A0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A296B2871BBA330000082A0E /* promptView.m in Sources */,
 				A296B25A1BBA30E500082A0E /* ViewController.m in Sources */,
+				A213D7B61BBA76C9001A6665 /* promptView+TY.m in Sources */,
 				A296B2571BBA30E500082A0E /* AppDelegate.m in Sources */,
 				A296B2541BBA30E500082A0E /* main.m in Sources */,
 			);
@@ -308,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A296B25B1BBA30E500082A0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A296B25C1BBA30E500082A0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A296B2601BBA30E500082A0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = prompt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TY.daom.prompt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = prompt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TY.daom.prompt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +502,7 @@
 				A296B27E1BBA30E500082A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A296B27F1BBA30E500082A0E /* Build configuration list for PBXNativeTarget "promptTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				A296B2811BBA30E500082A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A296B2821BBA30E500082A0E /* Build configuration list for PBXNativeTarget "promptUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				A296B2841BBA30E500082A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
